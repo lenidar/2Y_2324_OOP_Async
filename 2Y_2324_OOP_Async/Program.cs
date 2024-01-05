@@ -56,7 +56,7 @@ namespace _2Y_2324_OOP_Async
 
             for (int x = 0; x < workTime; x++)
             {
-                await Task.Delay(rnd.Next(200,1500));
+                await Task.Delay(taskDuration);
                 //await VisualDelay(taskDuration);
                 switch (ID)
                 {
